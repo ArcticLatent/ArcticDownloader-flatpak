@@ -2,58 +2,93 @@
   <img src="assets/icon.svg" alt="Arctic Downloader" width="160">
 </p>
 
-# Arctic Downloader
+# 🧊 Arctic Downloader
+[![Flatpak](https://img.shields.io/badge/Flatpak-App%20Bundle-4895EF?logo=flatpak&logoColor=white)](#-%F0%9F%9B%A0-requirements)
+[![ComfyUI Helper](https://img.shields.io/badge/ComfyUI-Asset%20Catalog-9B59B6)](https://github.com/comfyanonymous/ComfyUI)
+[![Status](https://img.shields.io/badge/Status-Active-success)](#-need-help)
 
-### ComfyUI Asset Helper by Arctic Latent
+A **curated asset companion** for ComfyUI users who want to grab the right models, VAEs, and LoRAs without hunting through endless links. Tell the app your GPU VRAM and system RAM tiers and it highlights the builds that match my YouTube tutorial setups—then downloads everything into the correct ComfyUI folders with live progress.
 
-Arctic Downloader is a helper app for people who run ComfyUI and want a simple way to grab the right models, VAE files, and LoRAs for their setup. It’s curated to mirror the builds shown in my YouTube tutorials so you can follow along without hunting for the assets yourself. Think of it as a catalog with a big “download” button: you tell it your GPU VRAM and RAM tiers, and it surfaces the options that match.
+---
 
-## What it does
+## 📚 Overview
 
-- Shows a catalog of hand-picked ComfyUI models and LoRAs.
-- Lets you choose your GPU VRAM and system RAM, then highlights the variants that make sense for those limits.
-- Automatically grabs the “always needed” extras (text encoders, CLIPs, upscalers, and similar helpers) so nothing is missing.
-- Saves everything into the right subfolders under your ComfyUI installation so you can start using the files right away.
-- Gives you live progress for each download and, when it’s done, lists exactly which files landed where (with quick-open buttons).
-- Supports optional Civitai API tokens for LoRAs that need an account.
+Arctic Downloader mirrors the exact builds I showcase in videos so you can follow along with zero guesswork. Think of it as a catalog plus a giant “download” button that keeps your ComfyUI directory organized.
 
-## Getting Started
+---
 
-1. **Install ComfyUI** and make sure you know where its folder lives. If you want a one-command setup tailored to your Linux distro and GPU, use my installer here: <https://github.com/ArcticLatent/linux-comfy-installer>.
-2. **Download the latest `.flatpak` release** from this repository’s Releases page.
-3. Install it (`flatpak install --user ./ArcticDownloader.flatpak`).
-4. Launch Arctic Downloader and pick your ComfyUI folder when prompted.
+## 🧩 Core Features
 
-That’s it—browse the catalog, pick what you want, and click download. The app handles the rest.
+- 🧠 **Tier-aware catalog** that presents only the models and LoRAs that fit your VRAM and RAM.
+- 📦 **Auto-dependency downloads** for text encoders, CLIPs, upscalers, and other must-haves.
+- 🗂️ **Smart placement** that drops files into the right ComfyUI subfolders immediately.
+- 📈 **Live progress + completion summary** with buttons to open the downloaded files.
+- 🔐 **Optional Civitai token support** for creators who require authenticated downloads.
 
-## Tips
+---
 
-- The VRAM tiers (S, A, B, C) give you a quick way to match files to your GPU size. If you’re unsure, pick the lowest tier that matches your card to avoid running out of memory.
-- Use the legend inside the app if you want a refresher on the quantization shorthand (fp16, fp8, GGUF, etc.).
-- If you drop in new hardware later, just change your tier in the app and it will show the upgraded variants automatically.
+## 🚀 Getting Started
 
-## Requirements
+1. **Install ComfyUI** and note its directory. Need a distro-aware installer? Use <https://github.com/ArcticLatent/linux-comfy-installer>.
+2. **Download the latest `.flatpak`** from this repo’s Releases page.
+3. Install it:
+   ```bash
+   flatpak install --user ./ArcticDownloader.flatpak
+   ```
+4. Launch Arctic Downloader and point it at your ComfyUI folder when asked.
 
-- Active internet connection for downloading models and LoRAs.
-- Flatpak installed on your system. Install it with:
+Browse, click download, and the app handles the rest.
+
+---
+
+## 🛠 Requirements
+
+- Active internet connection (for pulling assets).
+- Flatpak runtime on your system:
 
   ```bash
   # Ubuntu / Debian / Linux Mint
   sudo apt install flatpak
 
-  # Fedora (already included on Workstation editions, but here’s the command just in case)
+  # Fedora (already included on Workstation editions)
   sudo dnf install flatpak
 
   # Arch / Manjaro
   sudo pacman -S flatpak
   ```
 
-- If you already ran my post-install script from <https://github.com/ArcticLatent/post-linux> (the helper that installs GPU drivers, codecs, hardware acceleration, and other essentials per distro), you’re all set—it already covers the Flatpak/runtime prerequisites.
-- Some Civitai creators require you to be logged in to download their LoRAs. If you see an “unauthorized” download error, create a free API key on the Civitai website, paste it into the LoRA section inside Arctic Downloader, and hit Save.
-- Your API key never leaves your machine. It’s stored in the local configuration file and only attached to the authenticated download request sent to Civitai.
+- If you previously ran <https://github.com/ArcticLatent/post-linux>, you already have the required runtimes and codecs.
 
-## Need Help?
+---
 
-If you need help, hit a problem, or spot a bug in the app, please open an issue in this GitHub repository so we can take a look.
+## 💡 Usage Tips
+
+- VRAM tiers (S, A, B, C) map directly to GPU size—pick the lowest tier that fits to avoid OOM errors.
+- Use the in-app legend for a refresher on quantization terms like `fp16`, `fp8`, and `GGUF`.
+- Upgraded your hardware later? Just change your tier and the catalog refreshes automatically.
+
+---
+
+## 🔐 Optional Civitai Access
+
+- Some LoRAs require you to be logged in on Civitai.
+- Generate a free API key on the Civitai website, paste it into the LoRA section in-app, and click **Save**.
+- Keys never leave your machine—they’re stored locally and used only for authenticated download requests.
+
+---
+
+## 🆘 Need Help?
+
+Open an issue in this repository if you hit a bug, need troubleshooting, or want to request new asset packs.
 
 Enjoy smoother ComfyUI setups!
+
+---
+
+Copyright (c) 2025 Arctic Downloader. All Rights Reserved.
+
+This software is proprietary and closed-source.
+
+You may download and use the compiled Flatpak package for personal use only. Redistribution, modification, reverse engineering, or commercial use of this software or any included assets is prohibited without written permission from the copyright holder.
+
+The software is provided “as is” without warranty of any kind.
