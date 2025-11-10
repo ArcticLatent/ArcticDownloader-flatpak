@@ -1,0 +1,12 @@
+# Flatpak artifacts
+*.flatpak
+*.flatpakref
+*.sha256
+*.flatpakrepo
+
+# Flatpak build dirs
+/build-dir/
+/repo/
+/app/
+/export/
+/dist/
