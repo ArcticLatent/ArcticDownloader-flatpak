@@ -85,6 +85,15 @@ Enjoy smoother ComfyUI setups!
 
 ---
 
+## 🧊 Author
+
+Burce Boran 🎥 Asset Supervisor / VFX Artist | 🐧 Arctic Latent
+
+[![YouTube – Arctic Latent](https://img.shields.io/badge/YouTube-%40ArcticLatent-FF0000?logo=youtube&logoColor=white)](https://youtube.com/@ArcticLatent)
+[![Patreon – Arctic Latent](https://img.shields.io/badge/Patreon-Arctic%20Latent-FF424D?logo=patreon&logoColor=white)](https://patreon.com/ArcticLatent)
+
+---
+
 Copyright (c) 2025 Arctic Downloader. All Rights Reserved.
 
 This software is proprietary and closed-source.
