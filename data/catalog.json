@@ -405,7 +405,7 @@
               "path": "unet/dev/gguf/flux1-dev-Q5_K_S.gguf",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "unet",
+              "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/dev/gguf/flux1-dev-Q5_K_S.gguf"
             },
@@ -414,7 +414,7 @@
               "path": "unet/fill/gguf/flux1-fill-dev-Q5_K_S.gguf",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "unet",
+              "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/fill/gguf/flux1-fill-dev-Q5_K_S.gguf"
             },
@@ -423,7 +423,7 @@
               "path": "unet/canny/gguf/flux1-canny-dev-Q5_0.gguf",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "unet",
+              "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/canny/gguf/flux1-canny-dev-Q5_0.gguf"
             },
@@ -432,7 +432,7 @@
               "path": "unet/depth/gguf/flux1-depth-dev-Q5_0.gguf",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "unet",
+              "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/depth/gguf/flux1-depth-dev-Q5_0.gguf"
             },
@@ -441,7 +441,7 @@
               "path": "unet/kontext/gguf/flux1-kontext-dev-Q5_K_M.gguf",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "unet",
+              "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/kontext/gguf/flux1-kontext-dev-Q5_K_M.gguf"
             }
@@ -459,7 +459,7 @@
               "path": "unet/dev/gguf/flux1-dev-Q3_K_S.gguf",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "unet",
+              "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/dev/gguf/flux1-dev-Q3_K_S.gguf"
             },
@@ -468,7 +468,7 @@
               "path": "unet/fill/gguf/flux1-fill-dev-Q3_K_S.gguf",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "unet",
+              "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/fill/gguf/flux1-fill-dev-Q3_K_S.gguf"
             },
@@ -477,7 +477,7 @@
               "path": "unet/canny/gguf/flux1-canny-dev-Q4_0.gguf",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "unet",
+              "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/canny/gguf/flux1-canny-dev-Q4_0.gguf"
             },
@@ -486,7 +486,7 @@
               "path": "unet/depth/gguf/flux1-depth-dev-Q4_0.gguf",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "unet",
+              "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/depth/gguf/flux1-depth-dev-Q4_0.gguf"
             },
@@ -495,7 +495,7 @@
               "path": "unet/kontext/gguf/flux1-kontext-dev-Q3_K_S.gguf",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "unet",
+              "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/kontext/gguf/flux1-kontext-dev-Q3_K_S.gguf"
             }
@@ -682,7 +682,7 @@
               "path": "clip/clip_l.safetensors",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "text_encoders",
+              "target_category": "clip",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/clip/clip_l.safetensors"
             },
@@ -691,7 +691,7 @@
               "path": "clip/t5xxl_fp16.safetensors",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "text_encoders",
+              "target_category": "clip",
               "license_url": null,
               "min_ram_tier": "tier_a",
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/clip/t5xxl_fp16.safetensors"
@@ -701,7 +701,7 @@
               "path": "clip/t5xxl_fp8_scaled.safetensors",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "text_encoders",
+              "target_category": "clip",
               "license_url": null,
               "min_ram_tier": "tier_b",
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/clip/t5xxl_fp8_scaled.safetensors"
@@ -711,7 +711,7 @@
               "path": "clip/gguf/t5xxl_Q5_K_M.gguf",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "text_encoders",
+              "target_category": "clip",
               "license_url": null,
               "min_ram_tier": "tier_c",
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/clip/gguf/t5xxl_Q5_K_M.gguf"
@@ -720,8 +720,8 @@
         }
       ],
       "ram_tier_thresholds": {
-        "tier_a_min_gb": 16.0,
-        "tier_b_min_gb": 12.0
+        "tier_a_min_gb": 30.0,
+        "tier_b_min_gb": 14.0
       }
     },
     {
@@ -777,7 +777,7 @@
               "path": "unet/krea/gguf/flux1-krea-dev-Q6_K.gguf",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "unet",
+              "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/krea/gguf/flux1-krea-dev-Q6_K.gguf"
             }
@@ -795,7 +795,7 @@
               "path": "unet/krea/gguf/flux1-krea-dev-Q3_K_M.gguf",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "unet",
+              "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/krea/gguf/flux1-krea-dev-Q3_K_M.gguf"
             }
@@ -982,7 +982,7 @@
               "path": "clip/clip_l.safetensors",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "text_encoders",
+              "target_category": "clip",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/clip/clip_l.safetensors"
             },
@@ -991,7 +991,7 @@
               "path": "clip/t5xxl_fp16.safetensors",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "text_encoders",
+              "target_category": "clip",
               "license_url": null,
               "min_ram_tier": "tier_a",
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/clip/t5xxl_fp16.safetensors"
@@ -1001,7 +1001,7 @@
               "path": "clip/t5xxl_fp8_scaled.safetensors",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "text_encoders",
+              "target_category": "clip",
               "license_url": null,
               "min_ram_tier": "tier_b",
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/clip/t5xxl_fp8_scaled.safetensors"
@@ -1011,7 +1011,7 @@
               "path": "clip/gguf/t5xxl_Q5_K_M.gguf",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "text_encoders",
+              "target_category": "clip",
               "license_url": null,
               "min_ram_tier": "tier_c",
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/clip/gguf/t5xxl_Q5_K_M.gguf"
@@ -1020,8 +1020,8 @@
         }
       ],
       "ram_tier_thresholds": {
-        "tier_a_min_gb": 16.0,
-        "tier_b_min_gb": 12.0
+        "tier_a_min_gb": 30.0,
+        "tier_b_min_gb": 14.0
       }
     },
     {
@@ -1077,7 +1077,7 @@
               "path": "unet/schnell/ggug/flux1-schnell-Q5_K_S.gguf",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "unet",
+              "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/schnell/ggug/flux1-schnell-Q5_K_S.gguf"
             }
@@ -1095,7 +1095,7 @@
               "path": "unet/schnell/ggug/flux1-schnell-Q3_K_S.gguf",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "unet",
+              "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/unet/schnell/ggug/flux1-schnell-Q3_K_S.gguf"
             }
@@ -1282,7 +1282,7 @@
               "path": "clip/clip_l.safetensors",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "text_encoders",
+              "target_category": "clip",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/clip/clip_l.safetensors"
             },
@@ -1291,7 +1291,7 @@
               "path": "clip/t5xxl_fp16.safetensors",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "text_encoders",
+              "target_category": "clip",
               "license_url": null,
               "min_ram_tier": "tier_a",
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/clip/t5xxl_fp16.safetensors"
@@ -1301,7 +1301,7 @@
               "path": "clip/t5xxl_fp8_scaled.safetensors",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "text_encoders",
+              "target_category": "clip",
               "license_url": null,
               "min_ram_tier": "tier_b",
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/clip/t5xxl_fp8_scaled.safetensors"
@@ -1311,7 +1311,7 @@
               "path": "clip/gguf/t5xxl_Q5_K_M.gguf",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "text_encoders",
+              "target_category": "clip",
               "license_url": null,
               "min_ram_tier": "tier_c",
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/clip/gguf/t5xxl_Q5_K_M.gguf"
@@ -1320,8 +1320,8 @@
         }
       ],
       "ram_tier_thresholds": {
-        "tier_a_min_gb": 16.0,
-        "tier_b_min_gb": 12.0
+        "tier_a_min_gb": 30.0,
+        "tier_b_min_gb": 14.0
       }
     }
   ],
