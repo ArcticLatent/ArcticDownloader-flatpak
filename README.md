@@ -85,6 +85,12 @@ Enjoy smoother ComfyUI setups!
 
 ---
 
+## 🖼️ Demo Preview
+
+![Arctic Downloader Demo](assets/demo.png)
+
+---
+
 ## 🧊 Author
 
 Burce Boran 🎥 Asset Supervisor / VFX Artist | 🐧 Arctic Latent
