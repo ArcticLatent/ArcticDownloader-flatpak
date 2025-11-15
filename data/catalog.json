@@ -18,7 +18,7 @@
               "path": "unet_14b/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "unet",
+              "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors"
             },
@@ -27,7 +27,7 @@
               "path": "unet_14b/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "unet",
+              "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors"
             },
@@ -36,7 +36,7 @@
               "path": "unet_14b/wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "unet",
+              "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors"
             },
@@ -45,7 +45,7 @@
               "path": "unet_14b/wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "unet",
+              "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors"
             }
@@ -63,7 +63,7 @@
               "path": "unet_14b/wan2.2_i2v_high_noise_14B_fp16.safetensors",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "unet",
+              "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/wan2.2_i2v_high_noise_14B_fp16.safetensors"
             },
@@ -72,7 +72,7 @@
               "path": "unet_14b/wan2.2_i2v_low_noise_14B_fp16.safetensors",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "unet",
+              "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/wan2.2_i2v_low_noise_14B_fp16.safetensors"
             },
@@ -81,7 +81,7 @@
               "path": "unet_14b/wan2.2_t2v_high_noise_14B_fp16.safetensors",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "unet",
+              "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/wan2.2_t2v_high_noise_14B_fp16.safetensors"
             },
@@ -90,7 +90,7 @@
               "path": "unet_14b/wan2.2_t2v_low_noise_14B_fp16.safetensors",
               "sha256": null,
               "size_bytes": null,
-              "target_category": "unet",
+              "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/wan2.2_t2v_low_noise_14B_fp16.safetensors"
             }
@@ -193,12 +193,12 @@
           "artifacts": [
             {
               "repo": "hf://arcticlatent/wan2.2@main",
-              "path": "vae/wan2.2_vae.safetensors",
+              "path": "vae/wan_2.1_vae.safetensors",
               "sha256": null,
               "size_bytes": null,
               "target_category": "vae",
               "license_url": null,
-              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/vae/wan2.2_vae.safetensors"
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/vae/wan_2.1_vae.safetensors"
             }
           ]
         },
@@ -275,6 +275,16 @@
               "license_url": null,
               "min_ram_tier": "tier_c",
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/clip/gguf/umt5-xxl-encoder-Q5_K_M.gguf"
+            },
+            {
+              "repo": "hf://arcticlatent/wan2.2@main",
+              "path": "clip/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "text_encoders",
+              "license_url": null,
+              "min_ram_tier": "tier_a",
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/clip/umt5_xxl_fp8_e4m3fn_scaled.safetensors"
             }
           ]
         }
