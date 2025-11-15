@@ -38,8 +38,9 @@ Arctic Downloader mirrors the exact builds I showcase in videos so you can follo
    ```
 4. Launch Arctic Downloader and point it at your ComfyUI folder in the GUI.
 
-   - Because Flatpaks are sandboxed, the picker may show your selection as something like `/run/user/1000/doc/...`; that is expected and works. After logging out/in, that path can change and break access—
-     run this once to grant stable home access:
+   - Because Flatpaks are sandboxed, the picker may show your selection as something like `/run/user/1000/doc/...`; that is expected and works. After logging out/in, that path can change and break access.
+
+     Run this once to grant Arctic Downloader home folder access:
      ```bash
      flatpak override --user --filesystem=home io.github.ArcticDownloader
      ```
