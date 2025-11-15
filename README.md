@@ -24,6 +24,7 @@ Arctic Downloader mirrors the exact builds I showcase in videos so you can follo
 - 🗂️ **Smart placement** that drops files into the right ComfyUI subfolders immediately.
 - 📈 **Live progress + completion summary** with buttons to open the downloaded files.
 - 🔐 **Optional Civitai token support** for creators who require authenticated downloads.
+- ♻️ **Background auto-updates** check this repo for new builds and apply them quietly—you only need to restart after an update finishes.
 
 ---
 
