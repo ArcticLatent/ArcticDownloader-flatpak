@@ -1,6 +1,6 @@
 {
-  "version": "0.2.6",
-  "download_url": "https://github.com/ArcticLatent/ArcticDownloader-flatpak/releases/download/v0.2.6/ArcticDownloader.flatpak",
-  "sha256": "00a198ad4467d0879ccefd4d6810787c2d007ef4ef51ab756e894fb3ef302994",
+  "version": "0.2.7",
+  "download_url": "https://github.com/ArcticLatent/ArcticDownloader-flatpak/releases/download/v0.2.7/ArcticDownloader.flatpak",
+  "sha256": "b38f165a849d81c2da27632795657a3d1d87e1a5c8de4054635415273505eda0",
   "notes": "testing auto update mechanism"
 }
