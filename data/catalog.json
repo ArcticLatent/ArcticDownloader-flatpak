@@ -725,6 +725,16 @@
               "license_url": null,
               "min_ram_tier": "tier_c",
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/clip/gguf/t5xxl_Q5_K_M.gguf"
+            },
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "clip/t5xxl_fp8_scaled.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "clip",
+              "license_url": null,
+              "min_ram_tier": "tier_a",
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/clip/t5xxl_fp8_scaled.safetensors"
             }
           ]
         }
@@ -1025,6 +1035,16 @@
               "license_url": null,
               "min_ram_tier": "tier_c",
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/clip/gguf/t5xxl_Q5_K_M.gguf"
+            },
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "clip/t5xxl_fp8_scaled.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "clip",
+              "license_url": null,
+              "min_ram_tier": "tier_a",
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/clip/t5xxl_fp8_scaled.safetensors"
             }
           ]
         }
@@ -1325,6 +1345,16 @@
               "license_url": null,
               "min_ram_tier": "tier_c",
               "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/clip/gguf/t5xxl_Q5_K_M.gguf"
+            },
+            {
+              "repo": "hf://arcticlatent/flux1@main",
+              "path": "clip/t5xxl_fp8_scaled.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "clip",
+              "license_url": null,
+              "min_ram_tier": "tier_a",
+              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/clip/t5xxl_fp8_scaled.safetensors"
             }
           ]
         }
