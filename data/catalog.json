@@ -652,15 +652,6 @@
           "artifacts": [
             {
               "repo": "hf://arcticlatent/flux1@main",
-              "path": "loras/navi_flux_v1.safetensors",
-              "sha256": null,
-              "size_bytes": null,
-              "target_category": "loras",
-              "license_url": null,
-              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/loras/navi_flux_v1.safetensors"
-            },
-            {
-              "repo": "hf://arcticlatent/flux1@main",
               "path": "loras/schnell_lora.safetensors",
               "sha256": null,
               "size_bytes": null,
@@ -962,15 +953,6 @@
           "artifacts": [
             {
               "repo": "hf://arcticlatent/flux1@main",
-              "path": "loras/navi_flux_v1.safetensors",
-              "sha256": null,
-              "size_bytes": null,
-              "target_category": "loras",
-              "license_url": null,
-              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/loras/navi_flux_v1.safetensors"
-            },
-            {
-              "repo": "hf://arcticlatent/flux1@main",
               "path": "loras/schnell_lora.safetensors",
               "sha256": null,
               "size_bytes": null,
@@ -1270,15 +1252,6 @@
         {
           "id": "loras",
           "artifacts": [
-            {
-              "repo": "hf://arcticlatent/flux1@main",
-              "path": "loras/navi_flux_v1.safetensors",
-              "sha256": null,
-              "size_bytes": null,
-              "target_category": "loras",
-              "license_url": null,
-              "direct_url": "https://huggingface.co/arcticlatent/flux1/resolve/main/loras/navi_flux_v1.safetensors"
-            },
             {
               "repo": "hf://arcticlatent/flux1@main",
               "path": "loras/schnell_lora.safetensors",
