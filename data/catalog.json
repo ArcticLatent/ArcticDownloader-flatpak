@@ -2613,7 +2613,7 @@
           "id": "flux2-dev-q3",
           "tier": "tier_a",
           "model_size": "32B",
-          "quantization": "Q3-Q4-Q5",
+          "quantization": "Q3",
           "note": null,
           "artifacts": [
             {
@@ -2624,24 +2624,6 @@
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/gguf/flux2_dev_Q3_K_M.gguf"
-            },
-            {
-              "repo": "hf://arcticlatent/flux2@main",
-              "path": "gguf/flux2_dev_Q4_K_M.gguf",
-              "sha256": null,
-              "size_bytes": null,
-              "target_category": "diffusion_models",
-              "license_url": null,
-              "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/gguf/flux2_dev_Q4_K_M.gguf"
-            },
-            {
-              "repo": "hf://arcticlatent/flux2@main",
-              "path": "gguf/flux2_dev_Q5_K_M.gguf",
-              "sha256": null,
-              "size_bytes": null,
-              "target_category": "diffusion_models",
-              "license_url": null,
-              "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/gguf/flux2_dev_Q5_K_M.gguf"
             }
           ]
         },
@@ -2696,6 +2678,60 @@
               "target_category": "diffusion_models",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/gguf/flux2_dev_Q8_0.gguf"
+            }
+          ]
+        },
+        {
+          "id": "flux2-dev-q4",
+          "tier": "tier_a",
+          "model_size": "32B",
+          "quantization": "Q4",
+          "note": null,
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux2@main",
+              "path": "gguf/flux2_dev_Q4_K_M.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/gguf/flux2_dev_Q4_K_M.gguf"
+            }
+          ]
+        },
+        {
+          "id": "flux2-dev-q5",
+          "tier": "tier_a",
+          "model_size": "32B",
+          "quantization": "Q5",
+          "note": null,
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux2@main",
+              "path": "gguf/flux2_dev_Q5_K_M.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/gguf/flux2_dev_Q5_K_M.gguf"
+            }
+          ]
+        },
+        {
+          "id": "flux2-dev-q6",
+          "tier": "tier_a",
+          "model_size": "32B",
+          "quantization": "Q6",
+          "note": null,
+          "artifacts": [
+            {
+              "repo": "hf://arcticlatent/flux2@main",
+              "path": "gguf/flux2_dev_Q6_K.gguf",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "diffusion_models",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/flux2/resolve/main/gguf/flux2_dev_Q6_K.gguf"
             }
           ]
         }
