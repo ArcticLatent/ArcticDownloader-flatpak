@@ -1463,15 +1463,15 @@
   "loras": [
     {
       "id": "1",
-      "display_name": "Fluxlisimo",
+      "display_name": "RealComic",
       "family": "Flux.1 Krea",
-      "download_url": "https://civitai.com/api/download/models/2289736?type=Model&format=SafeTensor"
+      "download_url": "https://civitai.com/api/download/models/2321629?type=Model&format=SafeTensor"
     },
     {
       "id": "2",
-      "display_name": "Niji anime style",
-      "family": "Flux.1 D",
-      "download_url": "https://civitai.com/api/download/models/1423082?type=Model&format=SafeTensor"
+      "display_name": "Dungeons & Dreamscapes",
+      "family": "Flux.1 Krea",
+      "download_url": "https://civitai.com/api/download/models/2176287?type=Model&format=SafeTensor"
     }
   ]
 }
