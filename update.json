@@ -1,6 +1,6 @@
 {
-  "version": "0.3.0",
-  "download_url": "https://github.com/ArcticLatent/ArcticDownloader-flatpak/releases/download/v0.3.0/ArcticDownloader.flatpak",
-  "sha256": "35cd08f5efb1c38618ba7a7f976b83639e93ec9e9751ab51377561281c430413",
-  "notes": "improvements and optimizations."
+  "version": "0.3.1",
+  "download_url": "https://github.com/ArcticLatent/ArcticDownloader-flatpak/releases/download/v0.3.1/ArcticDownloader.flatpak",
+  "sha256": "3d58646623795fb6c557448e52835a09387232e8e7bf1e2bf0a0daf9515dd258",
+  "notes": "improved lora section"
 }
