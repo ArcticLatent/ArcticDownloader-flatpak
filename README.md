@@ -34,7 +34,7 @@ Arctic Downloader mirrors the exact builds I showcase in videos so you can follo
 2. **Download the latest `.flatpak`** from this repo’s Releases page.
 3. Install it:
    ```bash
-   flatpak install --user ./ArcticDownloader.flatpak
+   sudo flatpak install ArcticDownloader.flatpak
    ```
 4. Launch Arctic Downloader and point it at your ComfyUI folder in the GUI.
 
@@ -42,7 +42,7 @@ Arctic Downloader mirrors the exact builds I showcase in videos so you can follo
 
      Run this once to grant Arctic Downloader home folder access:
      ```bash
-     flatpak override --user --filesystem=home io.github.ArcticDownloader
+     sudo flatpak override --system --filesystem=home io.github.ArcticDownloader
      ```
 
 Browse, click download, and the app handles the rest.
