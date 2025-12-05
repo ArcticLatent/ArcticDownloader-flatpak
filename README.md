@@ -34,15 +34,15 @@ Arctic Downloader mirrors the exact builds I showcase in videos so you can follo
 2. **Download the latest `.flatpak`** from this repo’s Releases page.
 3. Install it:
    ```bash
-   sudo flatpak install ArcticDownloader.flatpak
+   flatpak install --user ArcticDownloader.flatpak
    ```
 4. Launch Arctic Downloader and point it at your ComfyUI folder in the GUI.
 
    - Because Flatpaks are sandboxed, the picker may show your selection as something like `/run/user/1000/doc/...`; that is expected and works, but after logging out/in, that path can change and won’t be available and you need to reselect your ComfyUI folder again. If you don’t want to do that every session:
 
-     Run this once to grant Arctic Downloader home folder access:
+     Run this once to grant Arctic Downloader access to a specific folder (replace the path with your ComfyUI directory):
      ```bash
-     sudo flatpak override --system --filesystem=home io.github.ArcticDownloader
+     flatpak override --user --filesystem=/home/youruser/ComfyUI io.github.ArcticDownloader
      ```
 
 Browse, click download, and the app handles the rest.
