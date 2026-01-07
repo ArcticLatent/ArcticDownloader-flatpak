@@ -98,7 +98,7 @@
         },
         {
           "id": "wan-14b-q4",
-          "tier": "tier_b",
+          "tier": "tier_c",
           "model_size": "14B",
           "quantization": "Q4",
           "note": "i2v + t2v",
@@ -143,91 +143,46 @@
         },
         {
           "id": "wan-14b-q3",
-          "tier": "tier_c",
+          "tier": "tier_b",
           "model_size": "14B",
           "quantization": "Q3",
           "note": "i2v + t2v",
           "artifacts": [
             {
               "repo": "hf://arcticlatent/wan2.2@main",
-              "path": "unet_14b/gguf/Wan2.2-I2V-A14B-HighNoise-Q3_K_M.gguf",
+              "path": "unet_14b/gguf/Wan2.2-I2V-A14B-HighNoise-Q8_0.gguf",
               "sha256": null,
               "size_bytes": null,
               "target_category": "unet",
               "license_url": null,
-              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/gguf/Wan2.2-I2V-A14B-HighNoise-Q3_K_M.gguf"
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/gguf/Wan2.2-I2V-A14B-HighNoise-Q8_0.gguf"
             },
             {
               "repo": "hf://arcticlatent/wan2.2@main",
-              "path": "unet_14b/gguf/Wan2.2-I2V-A14B-LowNoise-Q3_K_M.gguf",
+              "path": "unet_14b/gguf/Wan2.2-I2V-A14B-LowNoise-Q8_0.gguf",
               "sha256": null,
               "size_bytes": null,
               "target_category": "unet",
               "license_url": null,
-              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/gguf/Wan2.2-I2V-A14B-LowNoise-Q3_K_M.gguf"
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/gguf/Wan2.2-I2V-A14B-LowNoise-Q8_0.gguf"
             },
             {
               "repo": "hf://arcticlatent/wan2.2@main",
-              "path": "unet_14b/gguf/Wan2.2-T2V-A14B-HighNoise-Q3_K_M.gguf",
+              "path": "unet_14b/gguf/Wan2.2-T2V-A14B-HighNoise-Q8_0.gguf",
               "sha256": null,
               "size_bytes": null,
               "target_category": "unet",
               "license_url": null,
-              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/gguf/Wan2.2-T2V-A14B-HighNoise-Q3_K_M.gguf"
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/gguf/Wan2.2-T2V-A14B-HighNoise-Q8_0.gguf"
             },
             {
               "repo": "hf://arcticlatent/wan2.2@main",
-              "path": "unet_14b/gguf/Wan2.2-T2V-A14B-LowNoise-Q3_K_M.gguf",
+              "path": "unet_14b/gguf/Wan2.2-T2V-A14B-LowNoise-Q8_0.gguf",
               "sha256": null,
               "size_bytes": null,
               "target_category": "unet",
               "license_url": null,
-              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/gguf/Wan2.2-T2V-A14B-LowNoise-Q3_K_M.gguf"
-            }
-          ]
-        },
-        {
-          "id": "wan-14b-fp8",
-          "tier": "tier_s",
-          "model_size": "14B",
-          "quantization": "FP8",
-          "note": "i2v + t2v",
-          "artifacts": [
-            {
-              "repo": "hf://arcticlatent/wan2.2@main",
-              "path": "unet_14b/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
-              "sha256": null,
-              "size_bytes": null,
-              "target_category": "diffusion_models",
-              "license_url": null,
-              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors"
-            },
-            {
-              "repo": "hf://arcticlatent/wan2.2@main",
-              "path": "unet_14b/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
-              "sha256": null,
-              "size_bytes": null,
-              "target_category": "diffusion_models",
-              "license_url": null,
-              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors"
-            },
-            {
-              "repo": "hf://arcticlatent/wan2.2@main",
-              "path": "unet_14b/wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors",
-              "sha256": null,
-              "size_bytes": null,
-              "target_category": "diffusion_models",
-              "license_url": null,
-              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors"
-            },
-            {
-              "repo": "hf://arcticlatent/wan2.2@main",
-              "path": "unet_14b/wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors",
-              "sha256": null,
-              "size_bytes": null,
-              "target_category": "diffusion_models",
-              "license_url": null,
-              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors"
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/gguf/Wan2.2-T2V-A14B-LowNoise-Q8_0.gguf"
             }
           ]
         }
