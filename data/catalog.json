@@ -15,39 +15,39 @@
           "artifacts": [
             {
               "repo": "hf://arcticlatent/wan2.2@main",
-              "path": "unet_14b/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
+              "path": "unet_14b/Wan2_2-I2V-A14B-HIGH_fp8_e4m3fn_scaled_KJ.safetensors",
               "sha256": null,
               "size_bytes": null,
               "target_category": "diffusion_models",
               "license_url": null,
-              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors"
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/Wan2_2-I2V-A14B-HIGH_fp8_e4m3fn_scaled_KJ.safetensors"
             },
             {
               "repo": "hf://arcticlatent/wan2.2@main",
-              "path": "unet_14b/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
+              "path": "unet_14b/Wan2_2-I2V-A14B-LOW_fp8_e4m3fn_scaled_KJ.safetensors",
               "sha256": null,
               "size_bytes": null,
               "target_category": "diffusion_models",
               "license_url": null,
-              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors"
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/Wan2_2-I2V-A14B-LOW_fp8_e4m3fn_scaled_KJ.safetensors"
             },
             {
               "repo": "hf://arcticlatent/wan2.2@main",
-              "path": "unet_14b/wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors",
+              "path": "unet_14b/Wan2_2-T2V-A14B-LOW_fp8_e4m3fn_scaled_KJ.safetensors",
               "sha256": null,
               "size_bytes": null,
               "target_category": "diffusion_models",
               "license_url": null,
-              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors"
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/Wan2_2-T2V-A14B-LOW_fp8_e4m3fn_scaled_KJ.safetensors"
             },
             {
               "repo": "hf://arcticlatent/wan2.2@main",
-              "path": "unet_14b/wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors",
+              "path": "unet_14b/Wan2_2-T2V-A14B_HIGH_fp8_e4m3fn_scaled_KJ.safetensors",
               "sha256": null,
               "size_bytes": null,
               "target_category": "diffusion_models",
               "license_url": null,
-              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors"
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/unet_14b/Wan2_2-T2V-A14B_HIGH_fp8_e4m3fn_scaled_KJ.safetensors"
             }
           ]
         },
@@ -252,39 +252,39 @@
           "artifacts": [
             {
               "repo": "hf://arcticlatent/wan2.2@main",
-              "path": "loras_14b/Wan2.2-Lightning_I2V-A14B-4steps-lora_HIGH_fp16.safetensors",
+              "path": "lora/wan2.2_i2v_A14b_high_noise_lora_rank64_lightx2v_4step_1022.safetensors",
               "sha256": null,
               "size_bytes": null,
               "target_category": "loras",
               "license_url": null,
-              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/loras_14b/Wan2.2-Lightning_I2V-A14B-4steps-lora_HIGH_fp16.safetensors"
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/lora/wan2.2_i2v_A14b_high_noise_lora_rank64_lightx2v_4step_1022.safetensors"
             },
             {
               "repo": "hf://arcticlatent/wan2.2@main",
-              "path": "loras_14b/Wan2.2-Lightning_I2V-A14B-4steps-lora_LOW_fp16.safetensors",
+              "path": "lora/wan2.2_i2v_A14b_high_noise_lora_rank64_lightx2v_4step_1022.safetensors",
               "sha256": null,
               "size_bytes": null,
               "target_category": "loras",
               "license_url": null,
-              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/loras_14b/Wan2.2-Lightning_I2V-A14B-4steps-lora_LOW_fp16.safetensors"
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/lora/wan2.2_i2v_A14b_high_noise_lora_rank64_lightx2v_4step_1022.safetensors"
             },
             {
               "repo": "hf://arcticlatent/wan2.2@main",
-              "path": "loras_14b/Wan2.2-Lightning_T2V-v1.1-A14B-4steps-lora_HIGH_fp16.safetensors",
+              "path": "lora/wan2.2_t2v_A14b_high_noise_lora_rank64_lightx2v_4step_1217.safetensors",
               "sha256": null,
               "size_bytes": null,
               "target_category": "loras",
               "license_url": null,
-              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/loras_14b/Wan2.2-Lightning_T2V-v1.1-A14B-4steps-lora_HIGH_fp16.safetensors"
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/lora/wan2.2_t2v_A14b_high_noise_lora_rank64_lightx2v_4step_1217.safetensors"
             },
             {
               "repo": "hf://arcticlatent/wan2.2@main",
-              "path": "loras_14b/Wan2.2-Lightning_T2V-v1.1-A14B-4steps-lora_LOW_fp16.safetensors",
+              "path": "lora/wan2.2_t2v_A14b_low_noise_lora_rank64_lightx2v_4step_1217.safetensors",
               "sha256": null,
               "size_bytes": null,
               "target_category": "loras",
               "license_url": null,
-              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/loras_14b/Wan2.2-Lightning_T2V-v1.1-A14B-4steps-lora_LOW_fp16.safetensors"
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/lora/wan2.2_t2v_A14b_low_noise_lora_rank64_lightx2v_4step_1217.safetensors"
             }
           ]
         },
