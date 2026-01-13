@@ -240,6 +240,24 @@
               "target_category": "loras",
               "license_url": null,
               "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/lora/wan2.2_t2v_A14b_low_noise_lora_rank64_lightx2v_4step_1217.safetensors"
+            },
+            {
+              "repo": "hf://arcticlatent/wan2.2@main",
+              "path": "lora/SVI_v2_PRO_Wan2.2-I2V-A14B_HIGH_lora_rank_128_fp16.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "loras",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/lora/SVI_v2_PRO_Wan2.2-I2V-A14B_HIGH_lora_rank_128_fp16.safetensors"
+            },
+            {
+              "repo": "hf://arcticlatent/wan2.2@main",
+              "path": "lora/SVI_v2_PRO_Wan2.2-I2V-A14B_LOW_lora_rank_128_fp16.safetensors",
+              "sha256": null,
+              "size_bytes": null,
+              "target_category": "loras",
+              "license_url": null,
+              "direct_url": "https://huggingface.co/arcticlatent/wan2.2/resolve/main/lora/SVI_v2_PRO_Wan2.2-I2V-A14B_LOW_lora_rank_128_fp16.safetensors"
             }
           ]
         },
