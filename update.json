@@ -1,6 +1,6 @@
 {
-  "version": "0.3.2",
-  "download_url": "https://github.com/ArcticLatent/ArcticDownloader-flatpak/releases/download/v0.3.2/ArcticDownloader.flatpak",
-  "sha256": "a40475559a383171ba3cfe6fcda20d3c772a91cbd16b1e346525cfbdd6481319",
-  "notes": "new download mechanism for faster downloads and memory leak fixes"
+  "version": "0.3.3",
+  "download_url": "https://github.com/ArcticLatent/ArcticDownloader-flatpak/releases/download/v0.3.3/ArcticDownloader.flatpak",
+  "sha256": "8558d395988bb9923dc0ad0680dd42494860249793d95ed6ea94ba8a695b59f0",
+  "notes": "bug fixes"
 }
