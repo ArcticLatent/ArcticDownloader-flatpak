@@ -7,7 +7,7 @@
 [![ComfyUI Helper](https://img.shields.io/badge/ComfyUI-Asset%20Catalog-9B59B6)](https://github.com/comfyanonymous/ComfyUI)
 [![Status](https://img.shields.io/badge/Status-Active-success)](#-need-help)
 
-A **curated asset companion** for ComfyUI users who want to grab the right models, VAEs, and LoRAs without hunting through endless links. Tell the app your GPU VRAM and system RAM tiers and it highlights the builds that match my YouTube tutorial setups—then downloads everything into the correct ComfyUI folders with live progress.
+A **curated asset companion** for Linux ComfyUI users who want to grab the right models, VAEs, and LoRAs without hunting through endless links. Tell the app your GPU VRAM and system RAM tiers and it highlights the builds that match my YouTube tutorial setups—then downloads everything into the correct ComfyUI folders with live progress.
 
 ---
 
